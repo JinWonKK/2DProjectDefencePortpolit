@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ba766524a35b248889816ad3a8af24, type: 3}
+  m_Name: DefenceTable
+  m_EditorClassIdentifier: 
+  BUnit:
+  - unitName: BS_1
+    unitHP: 50
+    unitATK: 10
+  - unitName: BS_2
+    unitHP: 60
+    unitATK: 10
+  - unitName: BS_3
+    unitHP: 60
+    unitATK: 15
+  - unitName: BA_1
+    unitHP: 30
+    unitATK: 5
+  - unitName: BA_2
+    unitHP: 40
+    unitATK: 5
+  - unitName: BA_3
+    unitHP: 40
+    unitATK: 10
+  - unitName: BG_1
+    unitHP: 90
+    unitATK: 5
+  - unitName: BG_2
+    unitHP: 100
+    unitATK: 5
+  - unitName: BG_3
+    unitHP: 100
+    unitATK: 10
+  - unitName: BW_1
+    unitHP: 30
+    unitATK: 20
+  - unitName: BW_2
+    unitHP: 40
+    unitATK: 20
+  - unitName: BW_3
+    unitHP: 40
+    unitATK: 30
+  RUnit:
+  - unitName: RS_1
+    unitHP: 50
+    unitATK: 10
+  - unitName: RS_2
+    unitHP: 60
+    unitATK: 10
+  - unitName: RS_3
+    unitHP: 60
+    unitATK: 15
+  - unitName: RA_1
+    unitHP: 30
+    unitATK: 5
+  - unitName: RA_2
+    unitHP: 40
+    unitATK: 5
+  - unitName: RA_3
+    unitHP: 40
+    unitATK: 10
+  - unitName: RG_1
+    unitHP: 90
+    unitATK: 5
+  - unitName: RG_2
+    unitHP: 100
+    unitATK: 5
+  - unitName: RG_3
+    unitHP: 100
+    unitATK: 10
+  - unitName: RW_1
+    unitHP: 30
+    unitATK: 20
+  - unitName: RW_2
+    unitHP: 40
+    unitATK: 20
+  - unitName: RW_3
+    unitHP: 40
+    unitATK: 30
+  tipData:
+  - uid: 10001
+    sceneName: LobbyScene
+    tipText: "\uAC15\uD654\uB294 \uCD5C\uB300 Lv. 3\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+  - uid: 10002
+    sceneName: LobbyScene
+    tipText: "\uC131\uC744 \uCE68\uB7B5\uD558\uC5EC \uACE8\uB4DC\uB97C \uC5BB\uC744
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  - uid: 10003
+    sceneName: LobbyScene
+    tipText: "\uACE8\uB4DC\uB97C \uC0AC\uC6A9\uD558\uC5EC \uC720\uB2DB\uC744 \uAC15\uD654
+      \uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4"
+  - uid: 20001
+    sceneName: BattleScene
+    tipText: "5\uBD84 \uC774\uB0B4\uB85C \uC2B9\uB9AC\uD558\uBA74 \uBCC4 \uD558\uB098\uB97C
+      \uB354 \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  - uid: 20002
+    sceneName: BattleScene
+    tipText: "80\uC774\uC0C1\uC758 \uCCB4\uB825\uC73C\uB85C \uC2B9\uB9AC\uD558\uBA74
+      \uBCC4 \uD558\uB098\uB97C \uB354 \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  - uid: 20003
+    sceneName: BattleScene
+    tipText: "\uBCC4\uC744 \uB9CE\uC774 \uC5BB\uC744\uC218\uB85D \uACE8\uB4DC\uD68D\uB4DD\uB7C9\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  - uid: 20004
+    sceneName: BattleScene
+    tipText: "\uAC80\uC0AC\uB294 \uACF5\uACA9\uB825\uACFC \uCCB4\uB825\uC758 \uBC38\uB7F0\uC2A4\uAC00
+      \uC88B\uC2B5\uB2C8\uB2E4."
+  - uid: 20005
+    sceneName: BattleScene
+    tipText: "\uAD81\uC218\uB294 \uACF5\uACA9\uBC94\uC704\uAC00 \uB113\uC740\uB300\uC2E0
+      \uACF5\uACA9\uB825\uACFC \uCCB4\uB825\uC774 \uB0AE\uC2B5\uB2C8\uB2E4."
+  - uid: 20006
+    sceneName: BattleScene
+    tipText: "\uAC00\uB4DC\uB294 \uB192\uC740 \uCCB4\uB825\uC744 \uAC00\uC9C4\uB300\uC2E0
+      \uACF5\uACA9\uB825\uC774 \uB0AE\uC2B5\uB2C8\uB2E4."
+  - uid: 20007
+    sceneName: BattleScene
+    tipText: "\uB9C8\uBC95\uC0AC\uB294 \uB192\uC740\uACF5\uACA9\uB825\uC744 \uAC00\uC9C4\uB300\uC2E0
+      \uCCB4\uB825\uC774 \uB0AE\uC2B5\uB2C8\uB2E4."
+  stageData:
+  - stage: 1
+    coolTime: 10
+    castleHP: 100
+    unitLevel: 1
+  - stage: 2
+    coolTime: 9
+    castleHP: 130
+    unitLevel: 1
+  - stage: 3
+    coolTime: 9
+    castleHP: 150
+    unitLevel: 2
+  - stage: 4
+    coolTime: 8.5
+    castleHP: 150
+    unitLevel: 2
+  - stage: 5
+    coolTime: 8
+    castleHP: 200
+    unitLevel: 2
+  - stage: 6
+    coolTime: 8
+    castleHP: 200
+    unitLevel: 3
